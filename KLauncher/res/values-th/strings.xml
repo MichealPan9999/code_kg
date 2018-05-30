@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+    <string name="action_settings">การตั้งค่า
+</string>
+	<string name="source">แหล่งกำเนิด
+</string>
+	<string name="application_manager">ผู้จัดการแอปพลิเคชัน
+</string>
+	<string name="application_center">แอปทั้งหมด
+</string>
+	<string name="brower">เบราว์เซอร์
+</string>
+	<string name="calendar">ปฏิทิน
+</string>
+	<string name="email">อีเมล
+</string>
+	<string name="apkinstall">APK การติดตั้ง
+</string>
+	<string name="multimedia">มัลติมีเดีย
+</string>
+	<string name="settings">การตั้งค่า
+</string>
+	<string name="tv">การเล่นทีวี
+</string>
+	<string name="replace">เปลี่ยนแทนที่
+</string>
+	<string name="delete">ลบ
+</string>
+	<string name="cancel">ยกเลิก
+</string>
+	<string name="back">กลับไป
+</string>
+	<string name="hint">จองระบบ
+</string>
+	<string name="check_update">ตรวจสอบหาอัปเดท
+</string>
+    <string name="new_version_text">พบเวอร์ชันใหม่ ต้องการอัปเดทหรือไม่
+</string>
+    <string name="skip_this_version">ข้าม
+</string>
+    <string name="ok">ตกลง
+</string>
+    <string name="update">อัปเดท
+</string>
+    <string name="checking_version">กำลังขอรับข้อมูลเวอร์ชันล่าสุด...
+</string>
+    <string name="latest_version">ซอฟต์แวร์ของคุณเป็นเวอร์ชันล่าสุด!
+</string>
+    <string name="get_version_failed">ไม่สามารถได้รับข้อมูลเวอร์ชันล่าสุด!
+</string>
+    <string name="downloading_package">กำลังดาวน์โหลดแพคเกจการติดตั้ง…
+</string>
+    <string name="download_install">ดาวน์โหลดและติดตั้ง
+</string>
+    <string name="download_failed">ไม่สามารถดาวน์โหลด
+</string>
+      <string-array name="week">
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+    </string-array>
+	<string-array name="month">
+        <item>มกราคม</item>
+        <item>กุมภาพันธ์</item>
+        <item>มีนาคม</item>
+        <item>เมษายน</item>
+        <item>พฤษภาคม</item>
+        <item>มิถุนายน</item>
+        <item>กรกฎาคม</item>
+		<item>สิงหาคม</item>
+        <item>กันยายน</item>
+        <item>ตุลาคม</item>
+        <item>พฤศจิกายน</item>
+        <item>ธันวาคม</item>
+    </string-array>
+</resources>

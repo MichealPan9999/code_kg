@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="300dp"
+    android:layout_marginLeft="260dp"
+    android:layout_marginTop="120dp"
+    android:background="@drawable/bg_bottom_new"
+    android:orientation="vertical"> 
+    
+</LinearLayout>
+    

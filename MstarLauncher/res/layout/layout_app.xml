@@ -1,0 +1,470 @@
+<FrameLayout xmlns:uview="http://schemas.android.com/apk/res/com.ktc.tvlauncher"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ktc_0274"
+        android:gravity="center" >
+
+        <!-- 倒影 -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ktc_0110"
+        android:layout_marginTop="@dimen/ktc_0000" >
+
+        <FrameLayout
+            android:id="@+id/app_fl_0"
+            android:layout_width="@dimen/ktc_0600"
+            android:layout_height="@dimen/ktc_0400"
+            android:layout_marginLeft="@dimen/ktc_0032"
+            android:layout_marginTop="@dimen/ktc_0022" >
+
+            <!-- <ImageView
+                android:id="@+id/app_bg_0"
+                android:layout_width="@dimen/ktc_0600"
+                android:layout_height="@dimen/ktc_0400"
+                android:scaleType="centerInside"
+                android:visibility="visible" /> -->
+
+           <!--  <com.ktc.tvlauncher.ui.XCRoundRectImageView
+                android:id="@+id/app_iv_0"
+                android:layout_width="@dimen/ktc_0548"
+                android:layout_height="@dimen/ktc_0316"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@+id/app_iv_1"
+                android:nextFocusRight="@+id/app_iv_4"
+                android:nextFocusUp="@id/rb_app_store"
+                android:scaleType="centerCrop"
+                /> -->
+         <Button
+            android:id="@+id/tv_show"
+            android:layout_width="@dimen/ktc_0574"
+            android:layout_height="@dimen/ktc_0340"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/ktc_0010"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/bnt_tv" />
+		<RelativeLayout
+	            android:id="@+id/tv_surfaceview_layout"
+	            android:layout_width="@dimen/ktc_0532"
+	            android:layout_height="@dimen/ktc_0296"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft="@dimen/ktc_0030"
+	            android:layout_marginTop="@dimen/ktc_0040"
+	            android:focusable="false"
+	            android:focusableInTouchMode="false" >
+
+	            <View
+	                android:layout_width="@dimen/ktc_0500"
+	                android:layout_height="@dimen/ktc_0300"
+	                android:layout_marginLeft="@dimen/ktc_0010"
+	                android:layout_marginTop="@dimen/ktc_0012"
+	                 />
+
+        	</RelativeLayout>
+        		            <TextView
+	                android:id="@+id/app_re_0"
+	                android:layout_width="@dimen/ktc_0548"
+	                android:layout_height="@dimen/ktc_0316"
+	                android:layout_marginLeft="@dimen/ktc_0010"
+	                android:layout_marginTop="@dimen/ktc_0012"
+	                android:background="@drawable/app_image_selector"
+	                android:gravity="center_horizontal|bottom"
+	                android:paddingBottom="@dimen/ktc_0004"
+	                android:textColor="@color/white"
+	                android:textSize="@dimen/ktc_textSize_20"
+	                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_1"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0200"
+            android:layout_marginLeft="@dimen/ktc_0044"
+            android:layout_marginTop="@dimen/ktc_0366" >
+
+            <ImageView
+                android:id="@+id/app_bg_1"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_1"
+                android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_1"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@id/rb_app_store"
+                android:nextFocusLeft="@id/rb_app_store"
+                android:nextFocusUp="@id/tv_surfaceview_layout"
+                android:scaleType="centerCrop" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+           <TextView
+                android:id="@+id/app_re_1"
+              android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_2"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0230"
+            android:layout_marginTop="@dimen/ktc_0366" >
+
+            <ImageView
+                android:id="@+id/app_bg_2"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_2"
+                android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_2"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@id/rb_app_store"
+                android:nextFocusUp="@id/tv_surfaceview_layout"
+                android:scaleType="centerCrop" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_2"
+                android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_3"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0414"
+            android:layout_marginTop="@dimen/ktc_0366" >
+
+            <ImageView
+                android:id="@+id/app_bg_3"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_3"
+                android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0012"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_3"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@id/rb_app_store"
+                android:nextFocusUp="@id/tv_surfaceview_layout"
+                android:scaleType="centerCrop" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_3"
+                android:layout_width="@dimen/ktc_0176"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0012"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_4"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0604"
+            android:layout_marginTop="@dimen/ktc_0040" >
+
+            <ImageView
+                android:id="@+id/app_bg_4"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_4"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_4"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusLeft="@id/tv_surfaceview_layout"
+                android:nextFocusUp="@id/rb_app_store"
+                android:scaleType="fitXY"
+                uview:bg="@drawable/app_iv_0" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_4"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_5"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0604"
+            android:layout_marginTop="@dimen/ktc_0202" >
+
+            <ImageView
+                android:id="@+id/app_bg_5"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_5"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_5"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusLeft="@id/tv_surfaceview_layout"
+                android:scaleType="fitXY"
+                uview:bg="@drawable/app_iv_0" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_5"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_6"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0604"
+            android:layout_marginTop="@dimen/ktc_0366" >
+
+            <ImageView
+                android:id="@+id/app_bg_6"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_6"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_6"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@id/rb_app_store"
+                android:nextFocusUp="@id/app_iv_5"
+                android:scaleType="centerCrop" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_6"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_7"
+            android:layout_width="@dimen/ktc_0230"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0794"
+            android:layout_marginTop="@dimen/ktc_0040" >
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_7"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_7"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusUp="@id/rb_app_store"
+                android:scaleType="fitXY"
+                uview:bg="@drawable/app_iv_0" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <ImageView
+                android:id="@+id/app_bg_7"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/app_re_7"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_8"
+            android:layout_width="@dimen/ktc_0200"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0794"
+            android:layout_marginTop="@dimen/ktc_0202" >
+
+            <ImageView
+                android:id="@+id/app_bg_8"
+                android:layout_width="@dimen/ktc_0230"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <com.ktc.tvlauncher.ui.AppWidget
+                android:id="@+id/app_iv_8"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_iv_8"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                uview:bg="@drawable/app_iv_0" >
+            </com.ktc.tvlauncher.ui.AppWidget>
+
+            <TextView
+                android:id="@+id/app_re_8"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0154"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/app_fl_9"
+            android:layout_width="@dimen/ktc_0230"
+            android:layout_height="@dimen/ktc_0180"
+            android:layout_marginLeft="@dimen/ktc_0794"
+            android:layout_marginTop="@dimen/ktc_0366" >
+
+            <ImageView
+                android:id="@+id/app_bg_9"
+                android:layout_width="@dimen/ktc_0200"
+                android:layout_height="@dimen/ktc_0180"
+                android:scaleType="centerInside"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/app_iv_9"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:clickable="true"
+                android:focusable="true"
+                android:nextFocusDown="@id/rb_app_store"
+                android:scaleType="fitXY"
+                android:src="@drawable/app_iv_10" />
+
+            <TextView
+                android:id="@+id/app_re_9"
+                android:layout_width="@dimen/ktc_0180"
+                android:layout_height="@dimen/ktc_0158"
+                android:layout_marginLeft="@dimen/ktc_0010"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:background="@drawable/app_view_selector"
+                android:gravity="center_horizontal|bottom"
+                android:paddingBottom="@dimen/ktc_0004"
+                android:textColor="@color/white"
+                android:textSize="@dimen/ktc_textSize_20"
+                android:visibility="gone" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</FrameLayout>

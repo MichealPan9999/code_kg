@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">OOBE</string>
+    <string name="launguage_title">언어</string>
+     <string name="welcome_title">환영</string>
+    <string name="Internet_title">인터넷</string>
+    <string name="select_language_prompt">언어를 선택합니다.</string>
+     <string name="select_antennal_prompt">최상의 사운드를 위해, 장치가 어떻게 배치되는지 선택합니다.</string>
+    <string name="skip">건너뛰기</string>
+
+    <string name="stop">중지</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="finish">마침</string>
+    
+    <string name="next">다음</string>
+	<string name="back">뒤로</string>
+	
+	
+	<string name="welcome">환영</string>
+	<string name="thanks">장치를 구매해 주셔서 감사합니다.</string>
+	<string name="setup_note">잠시 시간을 내어 장치를 설정하고 사용할 준비를 합니다.</string>
+	<string name="txt_continue">계속하려면 다음 단추를 클릭하십시오.</string>
+	<string name="language_set_title">언어를 변경하려면 아래 단추를 누릅니다</string>
+	
+	<string name="date_time">날짜 및 시간 설정</string>
+	<string name="set_date">날짜 설정</string>
+	<string name="select_zone">표준 시간대 선택</string>
+	<string name="set_time">시간 설정</string>
+	<string name="set_timezone">표준 시간대 설정</string>
+	<string name="set24hour">24 시간 형식</string>
+	<string name="select_time_format">날짜 형식</string>
+	<string name="auto_time">날짜 및 시간 자동 설정</string>
+	<string name="date_time_changeTime_text">시간 변경</string>
+	<string name="date_format_title">날짜 형식 선택</string>
+	<string name="page">페이지</string>
+	<string name="timezone_select">표준 시간대</string>
+	
+	<string name="default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
+    <string name="normal_date_format">보통 (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+    
+    
+    <string name="network_select_prompt">원하는 연결을 선택하십시오.。</string>
+    <string name="wireless">무선</string>
+    <string name="wired">유선</string>
+    
+    <string name="wireless_scan_prompt">이 장치는 홈 네트워크에 연결될 수 있습니다.\n원하는 연결을 선택하십시오.</string>
+    <string name="scan_again">다시 스캔</string>
+	<string name="wps_key_connect">WPS 키 연결:</string>
+	<string name="wifi_wps_in_progress">WPS 진행 중. 이 작업에 몇십 초가 걸릴 수 있습니다</string>
+	<string name="wifi_wps_failed">WPS를 시작할 수 없습니다. 다시 시도하십시오.</string>
+	<string name="wifi_wps_overlap_error">다른 Wi-Fi 보호된 세션이 감지되었습니다. 몇 분 후에 다시 시도하십시오.</string>
+	<string name="please_hangup_pppoe">PPPOE 전화접속 네트워킹을 중단하십시오</string>
+	<string name="please_insert_dongle">무선 카드를 삽입하십시오</string>
+	<string name="wireless_scanning">네트워크 검색 중...</string>
+	<string name="please_insert_cable">유선 케이블을 삽입하십시오</string>
+	
+	<string name="wps_dialog_message">이 무선 네트워크는 보호되어 있습니다.\nWPA/WPA2 암호화 키를 입력하십시오.</string>
+	<string name="clear">지우기</string>
+	<string name="done">완료</string>
+	<string name="reconnect">다시 연결</string>
+	<string name="wireless_connected_successed_prompt">장치가 무선 네트워크에 연결되었습니다.</string>
+	<string name="wireless_connected_failed_prompt">장치를 무선 네트워크에 연결하는 데 실패했습니다.</string>
+	<string name="encryption_title">암호화:</string>
+	<string name="key_title">키:</string>
+	<string name="wire_connected_successed_prompt">장치가 유선 네트워크에 연결되었습니다.</string>
+	<string name="wire_connected_failed_prompt">장치를 유선 네트워크에 연결하는 데 실패했습니다.</string>
+
+	<string name="net_connection_prompt">연결 중...</string>
+	<string name="wire_scan_prompt">이 장치는 홈 네트워크에 연결될 수 있습니다.</string>
+	<string name="connect">연결</string>
+	<string name="auto_ip">자동 IP 주소 얻기</string>	
+	<string name="ip_address">IP 주소</string>
+	<string name="subnet_mask">서브넷 마스크</string>
+	<string name="default_gateway">기본 게이트웨이</string>
+	<string name="first_dns">첫번째 DNS</string>
+	<string name="second_dns">두번째 DNS</string>
+	<string name="auto_ip_on">켜짐</string>
+	<string name="auto_ip_off">꺼짐</string>
+	<string name="prev_page">이전</string>
+	<string name="next_page">다음</string>
+	<string name="wire_connect_prompt">네트워크가 유선 네트워크에 직접 연결될 것입니다. 고정 IP가 필요하면, 건너뛴 다음 네트워크 설정에서 지정하십시오.</string>
+	
+	<string name="ssid_password_error">SSID 또는 암호 오류</string>
+    <string name="wifi_security_none">없음</string>
+	<string name="setup_finish">설정 완료</string>
+	<string name="finishsummary">장치가 설정되었습니다.</string>
+	<string name="finishhelpinfo">이 마법사를 닫으려면 마침을 누르십시오.</string>
+	<string name="show_password_text">암호 표시</string>
+	<string name="forget_net_text">잊다</string>
+	<string name="forget_net_prompt_text">네트워크 연결 해제</string>
+</resources>

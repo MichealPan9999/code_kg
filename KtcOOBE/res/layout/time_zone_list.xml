@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/bg_bottom_new"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dip"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/timezone_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:listSelector="@drawable/select_item"
+            android:minHeight="50dip"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:clipToPadding="false"
+            android:fastScrollEnabled="true" >
+        </ListView>
+    </LinearLayout>
+
+    <!-- RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dip" 
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/page_total_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="40dip"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/page_current_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/page_total_count"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/page_current_count"
+            android:paddingRight="20dip"
+            android:text="@string/page"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout -->
+
+</LinearLayout>

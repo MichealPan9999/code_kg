@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="iapp_appname_size">17dp</dimen>
+	<dimen name="iapp_appname_size_xh">15dp</dimen>
+	
+	<!-- zhang -->
+	<dimen name="iapp_launcher_view_size">22sp</dimen>
+	<dimen name="view_time_size">60sp</dimen>
+	<dimen name="view_date_size">15sp</dimen>
+</resources>

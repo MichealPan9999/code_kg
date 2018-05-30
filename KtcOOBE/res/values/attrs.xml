@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- The DatePicker dialog theme. -->
+      <attr name="datePickerDialogTheme" format="reference" />
+      <attr name="timePickerDialogTheme" format="reference" />
+      <attr name="DatePicker_calendarTextColor"  format="color"></attr>
+      <attr name="DatePicker_headerBackground" format="color"></attr>
+</resources>

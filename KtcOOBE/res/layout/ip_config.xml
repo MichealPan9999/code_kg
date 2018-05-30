@@ -1,0 +1,407 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<RelativeLayout android:id="@+id/rllyAutoIp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="50dip" >
+		
+		<Switch android:id="@+id/swAutoIp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:thumb="@drawable/switch_inner_holo_light"
+		    android:track="@drawable/switch_track_holo_light"
+		    android:textOn="@string/auto_ip_on"
+		    android:textOff="@string/auto_ip_off"
+		    android:textColor="@android:color/primary_text_light" />
+		
+		<TextView
+        	android:id="@+id/tvNoticeWireStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/swAutoIp"
+		    android:layout_centerVertical="true"
+	        android:layout_marginRight="30dip"
+            android:textSize="@dimen/text_size_normal"
+        	android:textColor="@color/text_color_normal"
+            android:text="@string/auto_ip" />
+    </RelativeLayout>
+    
+	<RelativeLayout android:id="@+id/rllyIpAddress"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rllyAutoIp"
+        android:layout_marginTop="20dip"
+	    android:gravity="center_vertical"
+	    android:minHeight="50dip" >
+	
+	    <TextView
+	        android:layout_width="200dip"
+	        android:layout_height="35dip"
+	        android:text="@string/ip_address"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtIpFour"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtIpThree"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtIpFour"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtIpTwo"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtIpThree"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtIpOne"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtIpTwo"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout android:id="@+id/rllySubnetMask"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rllyIpAddress"
+	    android:gravity="center_vertical"
+	    android:minHeight="50dip" >
+	
+	    <TextView
+	        android:layout_width="200dip"
+	        android:layout_height="35dip"
+	        android:text="@string/subnet_mask"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSubnetMaskFour"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSubnetMaskThree"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSubnetMaskFour"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSubnetMaskTwo"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSubnetMaskThree"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSubnetMaskOne"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSubnetMaskTwo"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout android:id="@+id/rllyGateway"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rllySubnetMask"
+	    android:gravity="center_vertical"
+	    android:minHeight="50dip" >
+	
+	    <TextView
+	        android:layout_width="200dip"
+	        android:layout_height="35dip"
+	        android:text="@string/default_gateway"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtGatewayFour"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtGatewayThree"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtGatewayFour"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtGatewayTwo"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtGatewayThree"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtGatewayOne"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtGatewayTwo"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout android:id="@+id/rllyFirstDns"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rllyGateway"
+	    android:gravity="center_vertical"
+	    android:minHeight="50dip" >
+	
+	    <TextView
+	        android:layout_width="200dip"
+	        android:layout_height="35dip"
+	        android:text="@string/first_dns"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtFirstDnsFour"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtFirstDnsThree"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtFirstDnsFour"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtFirstDnsTwo"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtFirstDnsThree"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtFirstDnsOne"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtFirstDnsTwo"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	</RelativeLayout>
+	
+	<RelativeLayout android:id="@+id/rllySecondDns"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/rllyFirstDns"
+	    android:gravity="center_vertical"
+	    android:minHeight="50dip" >
+	
+	    <TextView
+	        android:layout_width="200dip"
+	        android:layout_height="35dip"
+	        android:text="@string/second_dns"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSecondDnsFour"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSecondDnsThree"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSecondDnsFour"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSecondDnsTwo"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSecondDnsThree"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	    <cn.ktc.android.oobe.widget.InputIPAddress
+	        android:id="@+id/edtSecondDnsOne"
+	        android:layout_width="60dip"
+	        android:layout_height="35dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_toLeftOf="@id/edtSecondDnsTwo"
+	        android:background="@drawable/edit_text"
+	        android:gravity="center"
+	        android:inputType="numberDecimal"
+	        android:maxLength="3"
+	        android:textColor="@color/ip_edit_text"
+	        android:cursorVisible="false"
+	        android:imeOptions="actionDone|flagNoExtractUi|flagNoFullscreen" />
+	
+	</RelativeLayout>
+<!-- 	<LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/rllyAutoIp" -->
+<!--         android:layout_marginTop="20dip" -->
+<!--         android:orientation="vertical" > -->
+
+	    
+<!--         <include layout="@layout/ip_address" /> -->
+
+<!--         <include layout="@layout/subnet_mask" /> -->
+
+<!--         <include layout="@layout/default_gateway" /> -->
+
+<!--         <include layout="@layout/first_dns" /> -->
+
+<!--         <include layout="@layout/second_dns" /> -->
+<!--     </LinearLayout> -->
+</RelativeLayout>

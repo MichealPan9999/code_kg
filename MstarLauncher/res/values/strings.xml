@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- 	<string name="tv_only">电视</string>
+	<string name="media_center">多媒体中心</string>
+    <string name="replace">替换</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="app_name">Launcher</string>
+    <string name="recommend">热门推荐</string>
+    <string name="tv_Internet">网络电视</string>
+    <string name="video_type">影视专区</string>
+    <string name="app_store">应用中心</string>
+    <string name="user">用户</string>
+    <string name="settings">我的设置</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_exit_exception">亲，程序好像挂掉了</string>
+    <string name="time_colon">:</string>
+    <string name="tvplay">电视剧</string>
+    <string name="movie">电&#160;&#160;&#160;&#160;影</string>
+    <string name="tv_show">综&#160;&#160;&#160;&#160;艺</string>
+    <string name="tvback_str_data_loading_error">亲，网络已断开连接了</string>
+    <string name="wifi_connect">Wifi网络已经连接上了</string>
+    <string name="eth_connect">有线网络已经连接上了</string>
+    <string name="version_updata">开始检测最新版本</string>
+    <string name="version_updata_downlond">正在后台下载,请稍后</string>
+    <string name="updata_bg">壁纸更换成功</string>
+    <string name="app_downlond">正在后台下载，完成后提示安装...</string>
+    <string name="app_downlond_no_ok">文件还没下载完成，请耐心等待</string>
+    <string name="str_data_loading"></string>
+    <string name="director">导演：</string>
+    <string name="actor">演员：</string>
+    <string name="description">简介：</string>
+    <string name="watch">观看</string>
+    <string name="back">返回</string>
+    <string name="movie_name">名字：</string>
+    <string name="download_install">下载并安装</string>
+    <string name="download_failed">下载失败！</string>
+    <string name="hint">系统应用位无法操作</string>
+    <string name="check_update">检查更新</string>
+    <string name="new_version_text">发现新版本，是否更新？</string>
+    <string name="skip_this_version">跳过</string>
+    <string name="ok">确定</string>
+    <string name="update">升级</string>
+    <string name="checking_version">正在获取最新版本信息...</string>
+    <string name="latest_version">您的软件已是最新版本！</string>
+    <string name="get_version_failed">无法获得版本信息！</string>
+    <string name="downloading_package">正在下载安装包...</string>
+
+    <string-array name="wifi_status">
+        <item msgid="1922181315419294640"></item>
+        <item msgid="8934131797783724664">"正在扫描..."</item>
+        <item msgid="8513729475867537913">"正在连接..."</item>
+        <item msgid="515055375277271756">"正在进行身份验证..."</item>
+        <item msgid="1943354004029184381">"正在获取 IP 地址..."</item>
+        <item msgid="4221763391123233270">"已连接"</item>
+        <item msgid="624838831631122137">"已暂停"</item>
+        <item msgid="7979680559596111948">"正在断开连接..."</item>
+        <item msgid="1634960474403853625">"已断开连接"</item>
+        <item msgid="746097431216080650">"失败"</item>
+    </string-array>
+
+    <string name="my_ccount">我的账户</string>
+    <string name="my_follow_video">我的追剧</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="play_history">历史播放</string>
+    <string name="favorite_app">常用应用</string>
+    
+    <string name="no_result">暂无搜索结果</string>
+    <string name="select">选择拼音首字母速查，如《太极》TJ</string>
+    
+    <string name="search">搜索</string>
+    <string name="type">类型</string>
+    <string name="years">年份</string>
+    <string name="area">地区</string>
+    
+    <string name="director_val">导演：</string>
+    <string name="actor_val">主演：</string>
+    <string name="year_val">年代：</string>
+    
+    <string name="more_menu_setup">菜单更多设置</string>
+    
+    <string name="time_zero">00:00:00</string>
+    <string name="ch_slash">/</string>
+    
+    <string name="ch_a_big">A</string>
+    <string name="ch_b_big">B</string>
+    <string name="ch_c_big">C</string>
+    <string name="ch_d_big">D</string>
+    <string name="ch_e_big">E</string>
+    <string name="ch_f_big">F</string>
+    <string name="ch_g_big">G</string>
+    <string name="ch_h_big">H</string>
+    <string name="ch_i_big">I</string>
+    <string name="ch_j_big">J</string>
+    <string name="ch_k_big">K</string>
+    <string name="ch_l_big">L</string>
+    <string name="ch_m_big">M</string>
+    <string name="ch_n_big">N</string>
+    <string name="ch_o_big">O</string>
+    <string name="ch_p_big">P</string>
+    <string name="ch_q_big">Q</string>
+    <string name="ch_r_big">R</string>
+    <string name="ch_s_big">S</string>
+    <string name="ch_t_big">T</string>
+    <string name="ch_u_big">U</string>
+    <string name="ch_v_big">V</string>
+    <string name="ch_w_big">W</string>
+    <string name="ch_x_big">X</string>
+    <string name="ch_y_big">Y</string>
+    <string name="ch_z_big">Z</string>
+    
+    <string name="ch_0_val">0</string>
+    <string name="ch_1_val">1</string>
+    <string name="ch_2_val">2</string>
+    <string name="ch_3_val">3</string>
+    <string name="ch_4_val">4</string>
+    <string name="ch_5_val">5</string>
+    <string name="ch_6_val">6</string>
+    <string name="ch_7_val">7</string>
+    <string name="ch_8_val">8</string>
+    <string name="ch_9_val">9</string>
+    
+	<string name="screen">筛选 : </string>
+	<string name="airport">AirPort</string>
+	<string name="by_protected_wap2">通过WPA/WPA2进行保护</string>
+    
+    
+    <string name="splash_version">版本号:</string>
+    <string name="display_setting_zoom_bottom_String">按\"返回\"鍵应用设置并返回</string>
+    <string name="display_setting_zoom_oncutoff_String">选择方向键点击\"OK\"后使用上下左右键调整缩放比例</string>
+    <string name="weather_date_today">今天</string>
+    <string name="weather_date_tomorrow">明天</string>
+    <string name="weather_date_after_tomorrow">后天</string>
+    <string name="about_info_recover">恢复出厂值</string>
+    <string name="recover_factory_settings_message">是否确认恢复出厂设置？</string>
+    <string name="about_setting_info_without">无</string>
+    <string name="network_setting_wireless_network_pager_list_item_link_state_linking">正在连接\.\.\.</string>
+    <string name="network_setting_wireless_network_pager_list_item_link_state_wrong">输入密码错误</string>
+    <string name="network_setting_wireless_network_pager_list_item_link_state_succeed">连接成功</string>
+    <string name="wifiap_pwd_notice">请输入正确的密码6位以上数字或字母</string>
+    <string name="please_input_ssid">请输入热点名称</string>
+    <string name="wifiap_state_turn_on">打开热点</string>
+    <string name="wifiap_state_turn_off">热点关闭</string>
+    <string name="wifiap_state_turn_on_succeed">打开热点成功</string>
+    <string name="wifiap_state_turn_on_fail">打开热点失败</string>
+    <string name="ip_error_info">输入网络信息不合法</string>
+    <string name="ip_set_succes">IP设置成功</string>
+    <string name="display_setting_ntsc">NTSC</string>
+    <string name="display_setting_pal">PAL</string>
+    <string name="networkspeed_title">当前网速：</string>
+    <string name="networkspeed_unit">kbps</string>
+    <string name="none_name">请输入名称</string>
+    <string name="none_password">请输入密码</string>
+    <string name="illegal_password">密码不合标准，要求8位以上数字或英文</string>
+    <string name="set_failed">设置失败</string>
+    <string name="network_linked_failed">网络连接失败</string>
+    <string name="network_linked_succeed">网络连接成功</string>
+    <string name="network_configuration_failed">网络配置失败</string>
+    <string name="network_configuration_succeed">网络配置成功</string>
+    <string name="network_disconnect">网络断开</string>
+    <string name="remote_installation_help_info">在PC浏览器中访问</string>
+    <string name="exitdialog_qin">亲！</string>
+    <string name="exitdialog_out">退出</string>
+    <string name="exitdialog_back">再看会儿</string>
+    <string name="progress_msg">片刻之后，精彩呈现……</string>
+
+ -->
+    <!-- VOD -->
+    <!--  
+    <string name="type_details_sum">共 部</string>
+    <string name="str_user_description">选中按\"菜单\"键或长按\"OK\"键</string>
+    <string name="str_data_loading_error">网络故障，获取数据失败，请重试。</string>
+    <string name="str_data_play_error">本集无法播放，为您播放下一集</string>
+    <string name="str_data_start_loading">按"菜单"键可进行筛选哟</string>
+    <string name="str_no_data_error">亲！没有找到视频源呢</string>
+    <string name="str_collection_loading">继续上次播放</string>
+    <string name="details_recommend">推荐观看</string>
+    <string name="vod_wasus">wasus</string>
+    <string name="vod_other">其他</string>
+    <string name="def_time">08 00</string>
+    <string name="def_date">1月1日\n星期一</string>
+    <string name="my_app_native_app">本地\n应用</string>
+    <string name="my_app_bottom_txt">按\"菜单\"键设置</string>
+    <string name="about_update_text">检测更新</string>
+    <string name="user_form_name">账号</string>
+    <string name="input_username">字母加数字的形式</string>
+    <string name="input_password">密码不能是汉字</string>
+    <string name="logout_msg">您已登录，是否注销？</string>
+    <string name="no_login">尚未登录</string>
+
+    <string-array name="str_array_weather_status">
+        <item>晴</item>
+        <item>多云</item>
+        <item>阴</item>
+        <item>阵雨</item>
+        <item>雷阵雨</item>
+        <item>雷阵雨伴有冰雹</item>
+        <item>雨夹雪</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>暴雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>阵雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+        <item>雾</item>
+        <item>冻雨</item>
+        <item>沙尘暴</item>
+        <item>小到中雨</item>
+        <item>中到大雨</item>
+        <item>大到暴雨</item>
+        <item>暴雨到大暴雨</item>
+        <item>小到中雪</item>
+        <item>中到大雪</item>
+        <item>大到暴雪</item>
+        <item>浮沉</item>
+        <item>扬沙</item>
+        <item>扬沙</item>
+        <item>强沙尘暴</item>
+        <item>霾</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="str_array_week">
+        <item>星期天</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="str_array_month">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+-->
+
+<!--     <string name="app_store">App&#160;Center</string>
+    <string name="tvplay">Teleplay</string>
+    <string name="movie">Movie</string>
+    <string name="tv_show">Show</string>
+    <string name="tv_only">TV</string>
+    <string name="media_center">Media&#160;Center</string>
+    <string name="my_app_bottom_txt">Press the menu key to set</string> -->
+</resources>

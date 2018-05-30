@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shortcuts_main"
+    android:layout_width="150dp"
+    android:layout_height="134dp"
+    android:background="@color/pop_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/popup_replace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/replace"
+        android:textSize="20dp"
+        android:textColor="@color/pop_text_white"  />
+    
+    <View 
+        android:layout_width="match_parent" 
+        android:layout_height="1.5dp"
+        android:background="@color/pop_line" /> 
+
+    <Button
+        android:id="@+id/popup_delete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/delete"
+        android:textSize="20dp"
+        android:textColor="@color/pop_text_white" />
+    
+    <View 
+        android:layout_width="match_parent" 
+        android:layout_height="1.5dp"
+        android:background="@color/pop_line"/> 
+
+    <Button
+        android:id="@+id/popup_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/cancel"
+        android:textSize="20dp"
+        android:textColor="@color/pop_text_white"/>
+</LinearLayout>

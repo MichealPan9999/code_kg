@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+    <string name="action_settings">تنظیمات</string>
+	<string name="source">منبع</string>
+	<string name="application_manager">مدير برنامه</string>
+	<string name="application_center">همه برنامه هاي كاربردي</string>
+	<string name="brower">مرورگر</string>
+	<string name="calendar">تقویم</string>
+	<string name="email">ایمیل</string>
+	<string name="apkinstall">نصب APK</string>
+	<string name="multimedia">چندرسانه‌ای</string>
+	<string name="settings">تنظیمات</string>
+	<string name="tv">تلویزیون</string>
+	<string name="replace">جایگزینی</string>
+	<string name="delete">حذف</string>
+	<string name="cancel">لغو</string>
+	<string name="back">بازگشت</string>
+	<string name="hint">رزرو سیستم</string>
+	<string name="check_update">بررسی برای به‌روزرسانی</string>
+    <string name="new_version_text">شناسایی نسخه جديد، به روز رسانی شود؟</string>
+    <string name="skip_this_version">پرش</string>
+    <string name="ok">تأیید</string>
+    <string name="update">به‌روزرسانی</string>
+    <string name="checking_version">درحال دریافت اطلاعات آخرین نسخه...</string>
+    <string name="latest_version">نرم‎افزار شما، آخرین نسخه است!</string>
+    <string name="get_version_failed">دريافت اطلاعات نسخه ناموفق بود!</string>
+    <string name="downloading_package">درحال دانلود بسته نصب...</string>
+    <string name="download_install">دانلود و نصب</string>
+    <string name="download_failed">دانلود ناموفق بود!</string>
+      <string-array name="week">
+        <item>یکشنبه</item>
+        <item>دوشنبه</item>
+        <item>سه‌شنبه</item>
+        <item>چهارشنبه</item>
+        <item>پنج‌شنبه</item>
+        <item>جمعه</item>
+        <item>شنبه</item>
+    </string-array>
+	<string-array name="month">
+        <item>ژانويه</item>
+        <item>فوريه</item>
+        <item>مارس</item>
+        <item>آوريل</item>
+        <item>مه</item>
+        <item>ژوئن</item>
+        <item>ژوئیه</item>
+		<item>اوت</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+<string name="action_settings">Nastavitve</string>
+<string name="source">Vir</string>
+<string name="application_manager">Upravitelj programov</string>
+<string name="application_center">Vsi programi</string>
+<string name="brower">Brskalnik</string>
+<string name="calendar">Koledar</string>
+<string name="email">E-pošta</string>
+<string name="apkinstall">Namestitev APK</string>
+<string name="multimedia">Večpredstavnost</string>
+<string name="settings">Nastavitve</string>
+<string name="tv">TV predvajalnik</string>
+<string name="replace">Zamenjaj</string>
+<string name="delete">Izbriši</string>
+<string name="cancel">Prekliči</string>
+<string name="back">Nazaj</string>
+<string name="hint">Rezerva sistema</string>
+<string name="check_update">Preveri, ali so na voljo posodobitve</string>
+<string name="new_version_text">Odkrita je nova različica, posodobim?</string>
+<string name="skip_this_version">Preskoči</string>
+    <string name="ok">OK</string>
+<string name="update">Posodobi</string>
+<string name="checking_version">Pridobivanje podatkov o zadnji različici...</string>
+<string name="latest_version">Ni novejših različic programske opreme!</string>
+<string name="get_version_failed">Neuspešno pridobivanje podatkov o različici!</string>
+<string name="downloading_package">Prenašam namestitveni paket ...</string>
+<string name="download_install">Prenesi in namesti.</string>
+<string name="download_failed">Prenašanje neuspešno!</string>
+      <string-array name="week">
+        <item>Nedelja</item>
+        <item>Ponedeljek</item>
+        <item>Torek</item>
+        <item>Sreda</item>
+        <item>Četrtek</item>
+        <item>Petek</item>
+        <item>Sobota</item>
+    </string-array>
+	<string-array name="month">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Marec</item>
+        <item>April</item>
+        <item>Maj</item>
+        <item>Junij</item>
+        <item>Julij</item>
+        <item>Avgust</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

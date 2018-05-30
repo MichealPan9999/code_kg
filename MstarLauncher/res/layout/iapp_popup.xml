@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shortcuts_main"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/popup_backgroud"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/popup_replace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/replace" />
+
+    <Button
+        android:id="@+id/popup_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/popup_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bnt_popup_button"
+        android:text="@string/cancel" />
+
+</LinearLayout>

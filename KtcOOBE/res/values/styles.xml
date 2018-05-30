@@ -1,0 +1,93 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--为了修改timepicker字体大小-->
+        <item name="android:textSize">20sp</item>              
+    </style>
+    
+       <style name="test" parent="android:Theme.Material.Dialog.Alert">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--为了修改timepicker字体大小-->
+        <item name="android:textColorPrimary">#ffffff</item> 
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@color/back_color</item>                 	              
+    </style>
+    
+    	
+       <style name="test_time" parent="@android:Theme.DeviceDefault.Light.Dialog">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!--为了修改timepicker字体大小-->
+        <item name="android:textColorPrimary">#ffffff</item> 
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#272530</item>                  
+    </style>
+    
+       <style name="AlertDialogCustom" parent="@android:Theme.Material.Dialog.Alert">   
+        <item name="android:textColor">#00FF00</item>   
+        <item name="android:typeface">monospace</item>   
+        <item name="android:textSize">10sp</item>   
+    </style>   
+    <style name="CustomDialog" parent="android:style/Theme.Material.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+	</style>
+
+
+
+    <style name="ChannelProgressBar" parent="android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="page_time_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">25sp</item>         
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+    <style name="page_time_subtitle_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">20sp</item>        
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="page_time_title_parent">
+        <item name="android:layout_width">600dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">1dip</item>
+        <item name="android:background">@drawable/list_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="wireless_dialog_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:minWidth">92dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:background">@drawable/button_new</item>
+    </style>
+	
+</resources>

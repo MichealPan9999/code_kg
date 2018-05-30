@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">OOBE</string>
+    <string name="launguage_title">Language</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="Internet_title">Internet</string>
+    <string name="select_language_prompt">Select your language.</string>
+    <string name="select_antennal_prompt">For best sound, select how the device is placed.</string>
+    <string name="skip">Skip</string>
+    <string name="stop">Stop</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="finish">Finish</string>
+    
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="welcome">Welcome</string>
+    <string name="thanks">Thank you for purchasing the device.</string>
+    <string name="setup_note">Take just a moment to get your new device setup and ready for use.</string>
+    <string name="txt_continue">Click the \"Next\" button to continue.</string>
+    
+
+    <array name="language_choose_dialog">
+    	<item>English</item>
+    	<item>中文（简体）</item>
+    	<item>中文（繁體）</item>
+        <item>Čeština</item>
+        <item>Dansk</item>
+        <item>Nederlands</item>
+        <item>Português</item>
+        <item>Español</item>
+        <item>Suomi</item>
+        <item>Français</item>
+        <item>Deutsche</item>
+        <item>Ελληνικά</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>Norsk bokmål</item>
+        <item>Polski</item>
+        <item>Română</item>
+        <item>Pусский</item>
+        <item>العربية</item>
+        <item>فارسی </item>
+        <item>Magyar</item>
+        <item>ไทย</item>
+        <item>Tiếng Việt</item>
+    </array>
+    <array name="language_choose_dialog_isdb">
+    	<item>English</item>   	 
+        <item>Português</item>
+        <item>Español</item>        
+        <item>Français</item>        
+    </array>
+    <array name="country_choose_dialog_isdb">
+    	<item>TvCountry.BRAZIL</item>   	 
+        <item>TvCountry.ARGENTINA</item>
+        <item>TvCountry.PERU</item>        
+        <item>TvCountry.ECUADOR</item>
+        <item>TvCountry.CHILE</item>       
+    </array>
+    
+     <array name="country_choose_dialog_list_isdb">
+    	<item>Brazli</item>   	 
+        <item>Argentina</item>
+        <item>Peru</item>        
+        <item>Ecuador</item>
+        <item>Chile</item>       
+    </array>
+    <array name="language" translatable="false">
+    	<item>en</item>
+    	<item>zh</item>	
+    	<item>zh</item>
+    	<item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>pt</item>
+        <item>es</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>nb</item>
+        <item>pl</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>ar</item>
+        <item>fa</item>
+        <item>hu</item>
+        <item>th</item>
+        <item>vi</item>
+    </array>
+	
+    <array name="language_isdb" translatable="false">
+    	<item>en</item>  	 
+        <item>pt</item>
+        <item>es</item>       
+        <item>fr</item>        
+    </array>
+    
+   <array name="country" translatable="false">
+    	<item>US</item>
+    	<item>CN</item>	
+    	<item>TW</item>
+        <item>CZ</item>
+        <item>DK</item>
+        <item>NL</item>
+        <item>PT</item>
+        <item>ES</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>GR</item>
+        <item>IT</item>
+        <item>JP</item>
+        <item>NO</item>
+        <item>PL</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>EG</item>
+         <item>IR</item>
+         <item>HU</item>
+         <item>TH</item>
+        <item>VN</item>
+    </array>
+    
+   <array name="country_isdb" translatable="false">
+    	<item>US</item>   	         
+        <item>ES</item>       
+        <item>FR</item>
+        <item>BR</item>      
+    </array>
+    
+    <string name="date_time">Date &amp; time settings</string>
+    <string name="auto_time">Set Date &amp; Time Automatically </string>
+    <string name="set_date">Set date</string>
+    <string name="select_zone">Select time zone</string>
+    <string name="set_time">Set time</string>
+    <string name="set_timezone">Set timezone</string>
+    <string name="set24hour">24-hour format</string>
+    <string name="select_time_format">Date format</string>
+    <string name="date_time_changeTime_text">Change time</string>
+    <string name="date_format_title">Select date format</string>
+    <string name="page">page</string>
+     <string name="timezone_select">Time Zone</string>
+    
+    <string name="default_date_format"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
+    <string name="normal_date_format">Normal (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+
+    <string name="network_select_prompt">Select which connection you want.</string>
+    <string name="wireless">Wireless</string>
+    <string name="wired">Wired</string>
+    
+    <string name="wireless_scan_prompt">This device can be connected to a home network.\nSelect which connection you want.</string>
+    <string name="scan_again">Scan</string>
+	<string name="wps_key_connect">WPS a key connection：</string>
+<string name="wifi_wps_in_progress">The WPS in progress, this process may take tens of seconds time</string>
+	<string name="wifi_wps_failed">Can not start the WPS, please try again</string>
+	<string name="wifi_wps_overlap_error">Another Wi-Fi protected session was detected. Try again in a few minutes.</string>
+	<string name="please_hangup_pppoe">Please hang up the PPPOE dial-up networking</string>
+	<string name="please_insert_dongle">Please insert the wireless card</string>
+	<string name="wireless_scanning">Searching for networks...</string>
+	<string name="please_insert_cable">Please insert the wire cable</string>
+	
+	<string name="wps_dialog_message">This wireless network is secured.\nEnter the WPA/WPA2 encryption key.</string>
+	<string name="clear">Clear</string>
+	<string name="forget_net_text">Forget</string>
+	<string name="forget_net_prompt_text">Disconnect the network</string>
+	<string name="done">Done</string>
+	<string name="reconnect">Reconnect</string>
+	<string name="wireless_connected_successed_prompt">Your device is connected to your wireless network.</string>
+	<string name="wireless_connected_failed_prompt">Your device connected to your wireless network failed.</string>
+	<string name="encryption_title">Encryption:</string>
+	<string name="key_title">Key:</string>
+	<string name="wire_connected_successed_prompt">Your device is connected to your wire network.</string>
+	<string name="wire_connected_failed_prompt">Your device connected to your wire network failed.</string>
+
+	<string name="net_connection_prompt">Connecting…</string>
+	<string name="wire_scan_prompt">This device can be connected to a home network.</string>
+	<string name="connect">Connect</string>	
+	<string name="auto_ip">Obtain IP address automatically</string>	
+	<string name="ip_address">IP address</string>
+	<string name="subnet_mask">subnet mask</string>
+	<string name="default_gateway">default gateway</string>
+	<string name="first_dns">first DNS</string>
+	<string name="second_dns">second DNS</string>
+	<string name="auto_ip_on">On</string>
+	<string name="auto_ip_off">Off</string>
+	<string name="prev_page">Previous</string>
+	<string name="next_page">Next</string>	
+    <string name="wire_connect_prompt">Network will be connected directly to a wired network, if you need to set fixed IP, please skip then set in the "Network Settings".</string>
+    
+    <string name="ssid_password_error">SSID or password error</string>
+    
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    
+    <string name="setup_finish">Setup Complete</string>
+    <string name="finishsummary">Your device is setup.</string>
+<string name="finishhelpinfo">Press "finish" to close this wizard.</string>
+
+    <string name="privacy_terms_title">Privacy Policy</string>
+	<string name="privacy_terms_agree">I\'ve read the terms and conditions</string>
+<string name="language_set_title">Press the button below to change language</string>
+<string name="country_set_title">Press the button below to change country</string>
+<string name="Home">Wallpaper</string>
+<string name="eth_conneted">Ethernet has been connected</string>
+    <string name="eth_no_devices">Ethernet can not be found</string>
+    <string name="pwdHint">the length must be eight or more characters</string>
+    <string name="show_password_text">show password</string>
+    
+</resources>

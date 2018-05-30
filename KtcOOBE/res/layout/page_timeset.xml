@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_background" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="32dp"
+            android:paddingLeft="45dp"
+            android:paddingRight="45dp"
+            android:orientation="vertical">
+            <!-- Date & time settings title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_time"
+                android:layout_gravity="center"                
+                android:textColor="@color/blue_color"
+                android:layout_marginTop="15dp"
+                android:textSize="50sp"  />
+            <!-- auto time -->
+            
+            <LinearLayout
+	            android:layout_width="240dp"
+	            android:layout_height="40dp"
+	            android:orientation="horizontal"
+	            android:paddingTop="10dp"
+	            android:layout_gravity="center" >
+	
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="50dp"
+	                android:background="@drawable/zero_white"
+	                android:padding="10dp" />
+	
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="15dp"
+	                android:background="@drawable/zero_white"
+	                android:padding="10dp" />
+	
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="15dp"
+	                android:background="@drawable/zero_blue"
+	                android:padding="10dp" />
+	
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="15dp"
+	                android:background="@drawable/zero_white"
+	                android:padding="10dp" />
+	
+	            <ImageView
+	                android:layout_width="10dp"
+	                android:layout_height="10dp"
+	                android:layout_gravity="center_vertical"
+	                android:layout_marginLeft="15dp"
+	                android:background="@drawable/zero_white"
+	                android:padding="10dp" />
+	                       
+       		</LinearLayout>
+        
+	            <ImageView
+		            android:layout_width="1160dp"
+		            android:layout_height="40dp"
+		            android:layout_marginTop="7dp"
+		            android:layout_weight="0.39"
+		            android:src="@drawable/line_horizontal" />
+	            
+	            <LinearLayout 
+	                android:layout_width="620dp"
+	                android:layout_height="400dp"	                 
+	                android:layout_marginTop="20dip"
+	                android:paddingLeft="5dp"	
+	                android:layout_gravity="center"
+	                android:orientation="vertical" >
+	                
+		            <RelativeLayout
+		                android:id="@+id/lay_auto_time"
+		                android:layout_width="600dp"
+		                android:layout_height="50dp"	                 
+		                android:layout_marginTop="10dip"	                 	                 
+		                android:background="@drawable/list_button"
+		                android:orientation="horizontal" >
+		                <TextView
+		                    android:id="@+id/tv_auto_time"
+		                    android:text="@string/auto_time"	                    
+		                    style="@style/page_time_title_text"/>
+		                <CheckBox
+		                    android:id="@+id/cb_auto_time"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    android:layout_marginTop="10dp"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"/>
+		            </RelativeLayout>
+		            <!-- Set date -->
+		            <RelativeLayout
+		                android:id="@+id/set_date_btn"
+		                android:layout_width="600dp"
+		                android:layout_height="50dp"
+		                android:layout_marginTop="1dp"	                 
+		                android:background="@drawable/list_button"
+		                android:focusable="true"
+		                android:orientation="horizontal">
+		                <TextView
+		                    android:id="@+id/tv_datetime_setdate"
+		                    android:text="@string/set_date"
+		                    style="@style/page_time_title_text" />
+		                <TextView
+		                    android:id="@+id/tv_datetime_setdate_summary"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    style="@style/page_time_subtitle_text"/>
+		            </RelativeLayout>
+		            <!-- Set time -->
+		            <RelativeLayout
+		                android:id="@+id/set_time_btn"
+		                android:orientation="horizontal"
+		                style="@style/page_time_title_parent">
+		                <TextView
+		                    android:id="@+id/tv_datetime_settime"
+		                    android:text="@string/set_time"
+		                    style="@style/page_time_title_text" />
+		                <TextView
+		                    android:id="@+id/tv_datetime_settime_summary"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    style="@style/page_time_subtitle_text" />
+		            </RelativeLayout>
+		            <!-- Set timezone -->
+		            <RelativeLayout
+		                android:id="@+id/set_timezone_btn"
+		                android:orientation="horizontal"		                 
+		                style="@style/page_time_title_parent" >
+		                <TextView
+		                    android:id="@+id/tv_datetime_settimezone"
+		                    android:text="@string/set_timezone"
+		                    style="@style/page_time_title_text" />
+		                <TextView
+		                    android:id="@+id/tv_datetime_settimezone_summary"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    style="@style/page_time_subtitle_text"/>
+		            </RelativeLayout>
+		
+		            <!-- Select date format -->
+		            <RelativeLayout
+		                android:id="@+id/date_format_btn"
+		                android:orientation="horizontal"
+		                style="@style/page_time_title_parent" >
+		                <TextView
+		                    android:id="@+id/tv_datetime_dateformat"
+		                    android:text="@string/select_time_format"
+		                    style="@style/page_time_title_text"/>
+		                <TextView
+		                    android:id="@+id/tv_datetime_dateformat_summary"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    style="@style/page_time_subtitle_text" />
+		            </RelativeLayout>
+		
+		            <!-- Use 24-hour format -->
+		            <RelativeLayout
+		                android:id="@+id/hour_format_txt"
+		                android:layout_width="600dp"
+		                android:layout_height="50dp"
+		                android:layout_marginTop="1dip"
+		                android:background="@drawable/list_button"
+		                android:orientation="horizontal" >
+		                <TextView
+		                    android:id="@+id/tv_datetime_hourformat"
+		                    android:text="@string/set24hour"
+		                    style="@style/page_time_title_text" />
+		                <CheckBox
+		                    android:id="@+id/cb_datetime_hourformat_checkbox"
+		                    android:layout_marginRight="15dp"
+		                    android:layout_alignParentRight="true"
+		                    android:layout_marginTop="10dp"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content"/>
+		            </RelativeLayout>
+	            </LinearLayout>
+	            
+        </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_background"
+         >
+
+         <Button
+             android:id="@+id/btn_time_back"
+             android:layout_width="115dp"
+             android:layout_height="40dp"
+             android:layout_alignParentLeft="true"
+             android:layout_marginLeft="250dp"
+             android:background="@drawable/button_new"
+             android:text="@string/back"
+             android:textColor="@color/white_color"
+             android:textSize="25dp" />
+
+         <Button
+             android:id="@+id/btn_time_next"
+             android:layout_width="115dp"
+             android:layout_height="40dp"
+             android:layout_alignParentRight="true"
+             android:layout_marginRight="250dp"
+             android:background="@drawable/button_new"
+             android:text="@string/next"
+             android:textColor="@color/white_color"
+             android:textSize="25dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">
+KLauncher
+</string>
+<string name="action_settings">
+Cilësimet
+</string>
+<string name="source">
+Burimi
+</string>
+<string name="application_manager">
+Menaxheri i aplikacionit
+</string>
+<string name="application_center">
+Të gjitha aplikacionet
+</string>
+<string name="brower">
+Shfletuesi
+</string>
+<string name="calendar">
+Kalendari
+</string>
+<string name="email">
+Email
+</string>
+<string name="apkinstall">
+APK Install
+</string>
+<string name="multimedia">
+multimedial
+</string>
+<string name="settings">
+Cilësimet
+</string>
+<string name="tv">
+Luajtësi i televizorit
+</string>
+<string name="replace">
+Zëvendëso
+</string>
+<string name="delete">
+Fshij
+</string>
+<string name="cancel">
+Anulo
+</string>
+<string name="back">
+Prapa
+</string>
+<string name="hint">
+Rezerva e sistemit
+</string>
+<string name="check_update">
+Kontrollo për përditësime
+</string>
+<string name="new_version_text">
+Zbulim i një versioni të ri, do të përditësosh?
+</string>
+<string name="skip_this_version">
+Kapërce
+</string>
+<string name="ok">
+Në rregull
+</string>
+<string name="update">
+Përditëso
+</string>
+<string name="checking_version">
+Po merr informacionin e versionit më të fundit...
+</string>
+<string name="latest_version">
+Softueri është versioni më i fundit!
+</string>
+<string name="get_version_failed">
+Dështoi në marrjen e informacionit të versionit!
+</string>
+<string name="downloading_package">
+Po shkarkon paketën e instalimit...
+</string>
+<string name="download_install">
+Shkarko dhe instalo
+</string>
+<string name="download_failed">
+Shkarkimi dështoi!
+</string>
+<string-array name="week">
+<item>
+E diel
+</item>
+<item>
+ E hënë
+</item>
+<item>
+   E martë
+</item>
+<item>
+ E mërkurë
+</item>
+<item>
+  E enjte
+</item>
+<item>
+   E premte
+</item>
+<item>
+  E shtunë
+</item>
+</string-array>
+<string-array name="month">
+<item>
+Janar
+</item>
+<item>
+Shkurt
+</item>
+<item>
+Mars
+</item>
+<item>
+        Prill
+</item>
+<item>
+        Maj
+</item>
+<item>
+        Qershor
+</item>
+<item>
+Korrik
+</item>
+<item>
+Gusht
+</item>
+<item>
+        Shtator
+</item>
+<item>
+        Tetor
+</item>
+<item>
+        Nëntor
+</item>
+<item>
+        Dhjetor
+</item>
+</string-array>
+</resources>

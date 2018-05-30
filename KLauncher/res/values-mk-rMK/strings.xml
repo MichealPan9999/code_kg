@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">К-стартер</string>
+<string name="action_settings">Прилагодувања</string>
+<string name="source">Извор</string>
+<string name="application_manager">Управивање со апликациjа</string>
+<string name="application_center">Сите апликации</string>
+<string name="brower">Пребарувач</string>
+<string name="calendar">Календар</string>
+<string name="email">Е- маил</string>
+<string name="apkinstall">Апк Инсталациjа</string>
+<string name="multimedia">Мултимедиа</string>
+<string name="settings">Прилагодувања</string>
+<string name="tv">Телевизор</string>
+<string name="replace">Замени</string>
+<string name="delete">Избриши</string>
+<string name="cancel">Откажи</string>
+<string name="back">Назад</string>
+<string name="hint">Резерва на систем</string>
+<string name="check_update">Провери за надградби</string>
+<string name="new_version_text">Откритие на нова верзиjа, дали да надградиш?</string>
+<string name="skip_this_version">Прескокни</string>
+<string name="ok">ОК</string>
+<string name="update">Надгради</string>
+<string name="checking_version">Добиj информациjа за последната верзиjа....</string>
+<string name="latest_version">Твоjот софтвер е последна верзиjа!</string>
+<string name="get_version_failed">Не успеа да за добие информациjата за верзиjата!</string>
+<string name="downloading_package">Симни го пакеотот за инсталациjа....</string>
+<string name="download_install">Превземи и инсталираj</string>
+<string name="download_failed">Симнувањето не успеа!</string>
+      <string-array name="week">
+        <item>Недела</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четврток</item>
+        <item>Петок</item>
+        <item>Сабота</item>
+    </string-array>
+	<string-array name="month">
+        <item>Jануари</item>
+        <item>Февруари</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Мaj</item>
+        <item>Jуни</item>
+        <item>Jули</item>
+		<item>Август</item>
+        <item>Септември</item>
+        <item>Октомври</item>
+        <item>Ноември</item>
+        <item>Декември</item>
+    </string-array>
+</resources>

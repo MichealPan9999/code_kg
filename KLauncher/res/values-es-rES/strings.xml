@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $_FOR_ROCKCHIP_RBOX_$ : modify by xubilv for USB device update-->
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="skip_this_version">Omitir</string>
+    <string name="tv">Reproductor de TV</string>
+    <string name="action_settings">Configuración</string>
+    <string name="replace">Sustituir</string>
+    <string name="back">Atrás</string>
+    <string name="update">Actualizar</string>
+    <string name="source">Fuente</string>
+    <string name="delete">Eliminar</string>
+    <string name="download_failed">¡Error en la descarga!</string>
+    <string name="download_install">Descargar e instalar</string>
+    <string name="brower">Navegador</string>
+    <string name="checking_version">Obteniendo la información de la versión más reciente...</string>
+    <string name="latest_version">¡Su software es la versión más reciente!</string>
+    <string name="application_center">Todas las aplicaciones</string>
+    <string name="ok">Aceptar</string>
+    <string name="email">Correo electrónico</string>
+    <string name="get_version_failed">¡No se pudo obtener la información de versión!</string>
+    <string name="calendar">Calendario</string>
+    <string name="settings">Configuración</string>
+    <string name="new_version_text">Se detectó una nueva versión. ¿Actualizar?</string>
+    <string name="apkinstall">Instalador APK</string>
+    <string name="downloading_package">Descargando el paquete de instalación...</string>
+    <string name="app_name">KLauncher</string>
+    <string name="multimedia">Multimedia</string>
+    <string name="application_manager">Administrador de aplicaciones</string>
+    <string name="hint">Reservado para sistema</string>
+    <string name="check_update">Buscar actualizaciones</string>
+
+    <string-array name="week">
+        <item>Domingo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+    </string-array>
+    <string-array name="month">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+</resources>

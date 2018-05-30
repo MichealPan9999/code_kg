@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+	android:layout_marginTop="4dp"
+	android:layout_marginBottom="4dp"
+	android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/bg_listitem" >
+
+    <ImageView
+        android:id="@+id/ivWpsLock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/ic_wps_lock" />
+    
+    <ImageView
+        android:id="@+id/ivWps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivWpsLock"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/ic_wps_normal" />
+    
+    <TextView
+        android:id="@+id/tvSsid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/ivWps"
+        android:layout_marginLeft="5dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/white_color" />
+
+    <ImageView
+        android:id="@+id/ivConnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/ic_wifi_connected"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/ivSignalStrenth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ivConnected"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

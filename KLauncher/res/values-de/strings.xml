@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+    <string name="action_settings">Einstellungen</string>
+	<string name="source">Quelle</string>
+	<string name="application_manager">App-Manager</string>
+	<string name="application_center">Alle Apps</string>
+	<string name="brower">Browser</string>
+	<string name="calendar">Kalender</string>
+	<string name="email">E-Mail</string>
+	<string name="apkinstall">APK installieren</string>
+	<string name="multimedia">Multimedia</string>
+	<string name="settings">Einstellungen</string>
+	<string name="tv">TV-Player</string>
+	<string name="replace">Ersetzen</string>
+	<string name="delete">Löschen</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="back">Zurück</string>
+	<string name="hint">Systemreserve</string>
+	<string name="check_update">Updates suchen</string>
+    <string name="new_version_text">Neue Version verfügbar. Aktualisieren?</string>
+    <string name="skip_this_version">Überspringen</string>
+    <string name="ok">OK</string>
+    <string name="update">Update</string>
+    <string name="checking_version">Neueste Versionsinformationen erhalten...</string>
+    <string name="latest_version">Ihre Software ist die neueste Version!</string>
+    <string name="get_version_failed">Keine Versionsinformationen erhalten!</string>
+    <string name="downloading_package">Installationspaket herunterladen...</string>
+    <string name="download_install">Herunterladen und installieren</string>
+    <string name="download_failed">Download fehlgeschlagen!</string>
+      <string-array name="week">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+	<string-array name="month">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Julis</item>
+		<item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </string-array>
+</resources>

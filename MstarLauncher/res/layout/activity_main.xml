@@ -1,0 +1,207 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context=".HomeActivity" >
+
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/rl_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+          
+
+     <!--        <ImageView
+                android:id="@+id/iv_net_state"
+                android:layout_width="@dimen/ktc_0030"
+                android:layout_height="@dimen/ktc_0030"
+                android:layout_marginLeft="@dimen/ktc_1040"
+                android:layout_marginTop="@dimen/ktc_0012"
+                android:src="@drawable/wifi" /> -->
+            
+            
+        <ImageView
+            android:id="@+id/topbar_net_status"
+                android:layout_width="@dimen/ktc_0030"
+                android:layout_height="@dimen/ktc_0030"
+                android:layout_marginLeft="@dimen/ktc_1040"
+                android:layout_marginTop="@dimen/ktc_0012"
+            android:src="@drawable/com_status_unlink" />
+
+            <ImageView
+                android:id="@+id/topbar_usb_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/ktc_0960"
+                android:layout_marginTop="@dimen/ktc_0010"
+                android:src="@drawable/ic_usb_status"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ktc_0050"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/ktc_1100"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_main_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/def_time"
+                        android:textSize="@dimen/ktc_0030"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/time_colon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:maxHeight="@dimen/ktc_0050"
+                        android:text="@string/time_colon"
+                        android:textColor="#ff999999"
+                        android:textSize="@dimen/ktc_0030"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/iv_main_line"
+                    android:layout_width="@dimen/ktc_0016"
+                    android:layout_height="@dimen/ktc_0032"
+                    android:src="@drawable/home_line" />
+
+                <TextView
+                    android:id="@+id/tv_main_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/def_date"
+                    android:textSize="@dimen/ktc_0012" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_rc"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ktc_0022"
+                android:layout_below="@+id/main"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ll_rb"
+                android:layout_below="@+id/ll_rc"
+                android:layout_marginTop="@dimen/ktc_0002" />
+
+            <LinearLayout
+                android:id="@+id/ll_rb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ktc_0064"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/ktc_0150"
+                android:paddingRight="@dimen/ktc_0150" >
+
+                <RadioGroup
+                    android:id="@+id/title_group"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_app_store"
+                        style="@style/TitleButton"
+                        android:layout_width="@dimen/ktc_0000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:gravity="center"
+
+                        android:nextFocusRight="@+id/rb_movie"
+                        android:text="@string/app_store"
+                        android:textSize="@dimen/ktc_textSize_25" />
+
+                    <RadioButton
+                        android:id="@+id/rb_movie"
+                        style="@style/TitleButton"
+                        android:layout_width="@dimen/ktc_0000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:gravity="center"
+          
+                        android:nextFocusLeft="@+id/rb_app_store"
+                        android:nextFocusRight="@+id/rb_teleplay"
+                        android:text="@string/movie"
+                        android:textSize="@dimen/ktc_textSize_25" />
+
+                    <RadioButton
+                        android:id="@+id/rb_teleplay"
+                        style="@style/TitleButton"
+                        android:layout_width="@dimen/ktc_0000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:nextFocusLeft="@+id/rb_movie"
+                        android:nextFocusRight="@+id/rb_arts"
+                        android:text="@string/tvplay"
+                        android:textSize="@dimen/ktc_textSize_25" />
+
+                    <RadioButton
+                        android:id="@+id/rb_arts"
+                        style="@style/TitleButton"
+                        android:layout_width="@dimen/ktc_0000"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:button="@null"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:nextFocusLeft="@+id/rb_teleplay"
+  
+                        android:text="@string/tv_show"
+                        android:textSize="@dimen/ktc_textSize_25" />
+                </RadioGroup>
+
+                <ImageView
+                    android:id="@+id/iv_titile"
+                    android:layout_width="@dimen/ktc_0080"
+                    android:layout_height="@dimen/ktc_0006"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/ktc_0002"
+                    android:layout_marginLeft="@dimen/ktc_0090"
+                    android:src="@drawable/titile_top" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_update_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/ktc_0018"
+        android:textSize="@dimen/ktc_0012" />
+
+</FrameLayout>

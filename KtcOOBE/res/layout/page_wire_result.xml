@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:paddingTop="32dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Internet_title"
+            android:textColor="@color/blue_color"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="50sp" />
+        
+        <LinearLayout          
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="69dp"
+                android:background="@drawable/zero_white"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/zero_white"
+                android:padding="10dp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/zero_blue"
+                android:padding="10dp" />
+            
+            <ImageView                
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/zero_white"
+                android:padding="10dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1160dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="0.39"
+            android:src="@drawable/line_horizontal" />
+        <TextView
+            android:id="@+id/tv_connected_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white_color"
+            android:textSize="25sp" />
+    </LinearLayout>
+    
+	<!-- botton bar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical">
+        <!-- button pre -->
+        <Button
+            android:id="@+id/btn_wireresult_back"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="250dp"
+            android:background="@drawable/button_new"
+            android:text="@string/back"
+            android:textColor="@color/white_color"
+            android:textSize="25dp"/>
+
+    <!-- button next -->
+        <Button
+            android:id="@+id/btn_wireresult_next"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="250dp"
+            android:background="@drawable/button_new"
+            android:text="@string/next"
+            android:textColor="@color/white_color"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+	<string name="action_settings">Cài Đặt</string>
+	<string name="source">Nguồn</string>
+	<string name="application_manager">Trình Quản Lý Ứng Dụng</string>
+	<string name="application_center">Tất Cả Các Ứng Dụng</string>
+	<string name="brower">Trình Duyệt</string>
+	<string name="calendar">Lịch</string>
+	<string name="email">E-mail</string>
+	<string name="apkinstall">Cài Đặt APK</string>
+	<string name="multimedia">Truyền Thông Đa Phương Tiện</string>
+	<string name="settings">Cài đặt</string>
+	<string name="tv">Trình phát TV</string>
+	<string name="replace">Thay thế</string>
+	<string name="delete">Xóa</string>
+	<string name="cancel">Hủy Bỏ</string>
+	<string name="back">Quay Lại</string>
+	<string name="hint">Hệ Thống Dự Trữ</string>
+	<string name="check_update">Kiểm tra để nâng cấp</string>
+	<string name="new_version_text">Phiên bản mới đang có sẵn. Cập nhật hay không?</string>
+	<string name="skip_this_version">Bỏ Qua</string>
+	<string name="ok">Được</string>
+	<string name="update">Cập Nhật</string>
+	<string name="checking_version">Nhận được thông tin phiên bản mới nhất...</string>
+	<string name="latest_version">Phần mềm của bạn là phiên bản mới nhất!</string>
+	<string name="get_version_failed">Không thể có được thông tin phiên bản!</string>
+	<string name="downloading_package">Đang tải xuống gói cài đặt ...</string>
+	<string name="download_install">Tải xuống và cài đặt</string>
+	<string name="download_failed">Tải xuống thất bại!</string>
+      <string-array name="week">
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+         <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+    </string-array>
+	<string-array name="month">
+		<item>Tháng 1</item>
+		<item>Tháng 2</item>
+		<item>Tháng 3</item>
+		<item>Tháng 4</item>
+		<item>Tháng 5</item>
+		<item>Tháng 6</item>
+		<item>Tháng 7</item>
+		<item>Tháng 8</item>
+		<item>Tháng 9</item>
+		<item>Tháng 10</item>
+		<item>Tháng 11</item>
+		<item>Tháng 12</item>
+	</string-array>
+	
+</resources>

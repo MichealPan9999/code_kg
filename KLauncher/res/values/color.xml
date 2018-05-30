@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appwidget_backgroud">#255B64</color>
+    <color name="item_text_normal">#d9d9d9</color>
+    <color name="item_text_selected">#ffffff</color>
+    <color name="ic_bg_normal">#ffffffff</color>
+    <color name="pop_btn_focus">#5CAFFB</color>
+    <color name="pop_btn_unfocus">#80004DDE</color>
+    <color name="pop_text_white">#ffffff</color>
+    <color name="pop_line">#ffffffff</color>
+    <color name="pop_bg">#50000000</color>
+    <color name="back_bg">#000000</color>
+    
+    <!-- zhanghz -->
+    <color name="color_widget_1_light">#b4129c</color>
+    
+    <color name="color_widget_2_light">#40aced</color>
+    
+    <color name="color_widget_3_light">#fbcd5d</color>
+    
+    <color name="color_widget_4_light">#fe768b</color>
+    
+    <color name="color_widget_5_light">#ffffff</color>
+    
+    <color name="color_widget_6_light">#011b57</color>
+    
+    <color name="color_widget_7_light">#00ac96</color>
+    
+    <color name="color_widget_8_light">#f4443f</color>
+    
+    <color name="color_widget_9_light">#030303</color>
+ 
+    <color name="transparent_drak">#aa777777</color>
+</resources>

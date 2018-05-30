@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLauncher</string>
+    <string name="action_settings">Настройки</string>
+	<string name="source">Источник</string>
+	<string name="application_manager">Диспетчер приложений</string>
+	<string name="application_center">Все приложения</string>
+	<string name="brower">Браузер</string>
+	<string name="calendar">Календарь</string>
+	<string name="email">Электронная почта</string>
+	<string name="apkinstall">APK  установить</string>
+	<string name="multimedia">Мультимедиа</string>
+	<string name="settings">Настройки</string>
+	<string name="tv">ТВ плеер</string>
+	<string name="replace">Заменить</string>
+	<string name="delete">Удалить</string>
+	<string name="cancel">Отмена</string>
+	<string name="back">Назад</string>
+	<string name="hint">Резерв системы</string>
+	<string name="check_update">Проверить обновления</string>
+    <string name="new_version_text">Обнаружена новая версия. Обновить?</string>
+    <string name="skip_this_version">Пропустить</string>
+    <string name="ok">ОК</string>
+    <string name="update">Обновить</string>
+    <string name="checking_version">Получение последних сведений о версии...</string>
+    <string name="latest_version">Установлена последняя версия приложения</string>
+    <string name="get_version_failed">Не удалось получить сведения о версии</string>
+    <string name="downloading_package">Загрузка пакета установки...</string>
+    <string name="download_install">Загрузить и установить</string>
+    <string name="download_failed">Ошибка загрузки</string>
+      <string-array name="week">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+	<string-array name="month">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июн</item>
+        <item>Июл</item>
+		<item>Авг</item>
+        <item>Сен</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+</resources>

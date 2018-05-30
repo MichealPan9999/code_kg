@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appLayout"
+    android:layout_width="105dp"
+    android:layout_height="105dp"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:addStatesFromChildren="true"
+    android:background="@drawable/bnt_app_layout"
+	>
+   
+    <ImageView
+	  	android:id="@+id/appicon"
+	  	android:scaleType="fitCenter"
+	  	android:layout_gravity="center_horizontal|top"
+	  	android:layout_width="70dp"
+	  	android:layout_height="70dp"
+	  	
+	  	 />
+    <com.ktc.launcher.ui.MarqueeTextView
+	  	android:id="@+id/apptitle"
+	  	android:layout_width="80dp"
+	  	android:layout_height="20dp"
+	  	
+	  	android:singleLine="true"
+	  	android:ellipsize="marquee"
+	  	android:marqueeRepeatLimit="marquee_forever"
+	  	android:textColor="#FFFF"	  	
+	  	android:textSize="15dp"
+	  	android:gravity="center_horizontal" />
+    
+</LinearLayout>

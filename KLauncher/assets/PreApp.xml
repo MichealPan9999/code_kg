@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preapp>
+	
+	<!--left_second 左边第二个 -->
+	
+    <app position="left_second" > 
+
+        <apppackage value="com.jrm.localmm" >
+        </apppackage>
+    </app>
+	<!--left_third 左边第三个 -->
+    <app position="left_third" > 
+
+        <apppackage value="com.ktc.tvhelper" >
+        </apppackage>
+    </app>
+	<!--right_0 右边第一个  后面以此类推-->
+    <app position="right_0" >	
+
+        <apppackage value="com.android.browser" >
+        </apppackage>
+    </app>
+
+    <app position="right_1" > 
+
+        <apppackage value="android.systemupdate.service" >
+        </apppackage>
+    </app>
+
+    <app position="right_2" > 
+
+        <apppackage value="com.ktc.miracast" >
+        </apppackage>
+    </app>
+	<app position="right_3" > 
+
+        <apppackage value="" >
+        </apppackage>
+    </app>
+	
+	<app position="right_5" > 
+
+        <apppackage value="" >
+        </apppackage>
+    </app>
+	<app position="right_6" > 
+
+        <apppackage value="" >
+        </apppackage>
+    </app>
+	<app position="right_7" > 
+
+        <apppackage value="" >
+        </apppackage>
+    </app>
+</preapp>

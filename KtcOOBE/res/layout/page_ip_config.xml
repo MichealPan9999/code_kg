@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="890dip"
+    android:layout_height="440dip"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+	    android:layout_weight="5">
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dip"
+	        android:layout_marginBottom="20dip"
+	        android:layout_marginLeft="30dip"
+	        android:layout_marginRight="30dip"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal"
+	        android:text="@string/wire_scan_prompt"/>
+	    
+	    <Button 
+	        android:id="@+id/btnConnect"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="184dip"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginBottom="20dip"
+	        android:layout_marginLeft="30dip"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal"
+	        android:text="@string/connect"
+	        android:background="@drawable/button"/>
+	    
+	    <Button 
+	        android:id="@+id/btnCancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:minWidth="184dip"
+	        android:layout_alignParentLeft="true"
+	        android:layout_above="@id/btnConnect"
+	        android:layout_marginBottom="20dip"
+	        android:layout_marginLeft="30dip"
+	        android:textSize="@dimen/text_size_normal"
+	        android:textColor="@color/text_color_normal"
+	        android:text="@string/cancel"
+	        android:background="@drawable/button"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_panel_divider" />
+    
+<!--     <include layout="@layout/ip_config" -->
+<!--         android:layout_width="0dip" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_weight="7"  -->
+<!--         android:layout_marginTop="20dip" -->
+<!--         android:layout_marginBottom="20dip" -->
+<!--         android:layout_marginLeft="30dip" -->
+<!--         android:layout_marginRight="30dip" /> -->
+    <cn.ktc.android.oobe.widget.IpConfigView 
+		android:id="@+id/ipConfig"
+		android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="7" 
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip" />
+<!--     <RelativeLayout  -->
+<!--         android:layout_width="0dip" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_weight="7"  -->
+<!--         android:layout_marginTop="20dip" -->
+<!--         android:layout_marginBottom="20dip" -->
+<!--         android:layout_marginLeft="30dip" -->
+<!--         android:layout_marginRight="30dip" > -->
+        
+<!--     </RelativeLayout> -->
+
+</LinearLayout>

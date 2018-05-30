@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_widget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 第一排 1-5 -->
+    <!-- 1 X-sign -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_1"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_margin="10dp"
+        android:addStatesFromChildren="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_1_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_1_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+             />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_1_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 2 multimedia -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_2"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_toRightOf="@+id/app_widget_1"
+	android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp"
+        tools:ignore="RtlHardcoded">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_2_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_2_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_2_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 3 browser -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_3"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_toRightOf="@+id/app_widget_2"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_3_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_3_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_3_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 4 easiFinder -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_4"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/app_widget_1"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_4_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_4_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+             />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_4_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 5 setting -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_5"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/app_widget_2"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_toRightOf="@+id/app_widget_4"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_5_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_5_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_5_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 第二排 6-10 -->
+    <!-- 6 wps office -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_6"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/app_widget_3"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_toRightOf="@+id/app_widget_5"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_6_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_6_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_6_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+    <!-- 7 -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_7"
+        android:layout_width="160dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="110dp"
+        android:layout_below="@+id/app_widget_4"
+        android:layout_margin="10dp"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_7_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_7_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_7_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 8 -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_8"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/app_widget_5"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/app_widget_7"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_8_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_8_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_8_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+    <!-- 9 all app center -->
+
+    <RelativeLayout
+        android:id="@+id/app_widget_appcenter"
+        android:layout_width="160dp"
+        android:layout_height="110dp"
+        android:layout_below="@+id/app_widget_6"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_toRightOf="@+id/app_widget_8"
+        android:descendantFocusability="beforeDescendants"
+        android:background="@drawable/iapp_widget_layout_background"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/gong_9_unfoucus" />
+
+        <ImageView
+            android:id="@+id/app_widget_appcenter_ic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/all_apps" />
+
+        <com.ktc.launcher.utils.ScrollTextView
+            android:id="@+id/app_widget_appcenter_name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="@string/application_center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iapp_appname_size" />
+    </RelativeLayout>
+
+</RelativeLayout>
